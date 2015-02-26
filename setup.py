@@ -4,6 +4,7 @@ from setuptools.command.test import test as TestCommand
 
 
 class PyTest(TestCommand):
+
     def initialize_options(self):
         TestCommand.initialize_options(self)
         self.pytest_args = []
@@ -21,10 +22,10 @@ class PyTest(TestCommand):
 
 setup(
     name='easy_init',
-    version='0.1',
+    version='0.2',
     packages=['easy_init'],
-    url='',
-    license='',
+    url='https://github.com/steveeJ/python-easy_init',
+    license='GPL-3',
     author='Stefan Junker',
     author_email='code@stefanjunker.de',
     description='Decorator for automatically setting arguments to class objects in constructors',
