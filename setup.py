@@ -22,7 +22,7 @@ class PyTest(TestCommand):
 
 setup(
     name='easy_init',
-    version='0.2',
+    version='0.2.1',
     packages=['easy_init'],
     url='https://github.com/steveeJ/python-easy_init',
     license='GPL-3',

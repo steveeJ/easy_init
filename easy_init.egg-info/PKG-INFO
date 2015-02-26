@@ -1,10 +1,10 @@
 Metadata-Version: 1.0
 Name: easy-init
-Version: 0.1
+Version: 0.2.1
 Summary: Decorator for automatically setting arguments to class objects in constructors
-Home-page: UNKNOWN
+Home-page: https://github.com/steveeJ/python-easy_init
 Author: Stefan Junker
 Author-email: code@stefanjunker.de
-License: UNKNOWN
+License: GPL-3
 Description: UNKNOWN
 Platform: UNKNOWN
