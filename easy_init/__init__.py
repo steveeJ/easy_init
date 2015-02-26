@@ -10,7 +10,6 @@ def easy_init(init):
     @functools.wraps(init)
     def new_init(o, *varargs, **varkw):
         callargs = inspect.getcallargs(init, o, *varargs, **varkw)
-        print(callargs)
         del callargs['self']
         for k, v in callargs.items():
             if v is dict:
